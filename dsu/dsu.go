@@ -10,8 +10,8 @@ type DSU struct {
 	n            int
 }
 
-// Dsu :
-func Dsu(n int) *DSU {
+// NewDSU :
+func NewDsu(n int) *DSU {
 	var d DSU
 	d.n = n
 	d.parentOrSize = make([]int, n)
